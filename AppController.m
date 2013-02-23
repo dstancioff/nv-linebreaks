@@ -222,7 +222,7 @@ BOOL isEd;
 	
 	currentPreviewMode = [[NSUserDefaults standardUserDefaults] integerForKey:@"markupPreviewMode"];
     if (currentPreviewMode == MarkdownPreview) {
-        [multiMarkdownPreview setState:NSOnState];
+        [markdownPreview setState:NSOnState];
     } else if (currentPreviewMode == MultiMarkdownPreview) {
         [multiMarkdownPreview setState:NSOnState];
     } else if (currentPreviewMode == TextilePreview) {

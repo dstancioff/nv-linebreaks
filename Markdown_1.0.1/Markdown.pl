@@ -478,7 +478,7 @@ sub _RunSpanGamut {
 	$text = _DoItalicsAndBold($text);
 
 	# Do hard breaks:
-	$text =~ s/ {2,}\n/ <br$g_empty_element_suffix\n/g;
+	$text =~ s/\n/ asdas<br$g_empty_element_suffix\n/g;
 
 	return $text;
 }

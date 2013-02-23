@@ -114,7 +114,7 @@
 	NSArray *savedSelectedNotes;
 	
   PreviewController *previewController;
-  // IBOutlet NSMenuItem *markdownPreview;
+  IBOutlet NSMenuItem *markdownPreview;
   IBOutlet NSMenuItem *multiMarkdownPreview;
   IBOutlet NSMenuItem *textilePreview;
   IBOutlet NSMenuItem *previewToggler;

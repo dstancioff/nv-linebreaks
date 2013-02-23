@@ -367,8 +367,7 @@
 -(SEL)markupProcessorSelector:(NSInteger)previewMode
 {
     if (previewMode == MarkdownPreview) {
-		previewMode = MultiMarkdownPreview;
-        return @selector(stringWithProcessedMultiMarkdown:);
+        return @selector(stringWithProcessedMarkdown:);
     } else if (previewMode == MultiMarkdownPreview) {
         return @selector(stringWithProcessedMultiMarkdown:);
     } else if (previewMode == TextilePreview) {
